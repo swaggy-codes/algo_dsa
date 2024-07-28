@@ -1,8 +1,8 @@
-import { givenArray } from "./utils/exportConsts.js";
+import { givenArray } from "./src/utils/exportConsts.js";
 
-import { bubbleSort } from "./algorithms_/sorting/bubbleSort.js";
-import { selectionSort } from "./algorithms_/sorting/selectionSort.js";
-import { binarySearchIterative, binarySearchRecursive } from "./algorithms_/searching/binarySearch.js";
+import { bubbleSort } from "./src/algorithms_/sorting/bubbleSort.js";
+import { selectionSort } from "./src/algorithms_/sorting/selectionSort.js";
+import { binarySearchIterative, binarySearchRecursive } from "./src/algorithms_/searching/binarySearch.js";
 
 selectionSort(givenArray, false); //Calling selectionSort
 
