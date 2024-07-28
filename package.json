@@ -1,0 +1,17 @@
+{
+  "name": "algo_dsa",
+  "version": "1.0.0",
+  "description": "Here I will be learning data structures and algorithms",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "saksham",
+  "license": "ISC",
+  "dependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4"
+  },
+  "type": "module"
+}
