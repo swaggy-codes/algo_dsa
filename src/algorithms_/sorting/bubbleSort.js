@@ -3,12 +3,12 @@
 // Not Stable
 
 export const bubbleSort = (arr, using) => {
-  let length = arr.lengthl;
-  let swapped = false;
+  let length = arr.length;
+  let swapped;
 
   for (let i = 0; i < length - 1; i++) {
     swapped = false; // Reset swapped flag for each iteration
-    for (let j = 0; j < i - 1; j++) {
+    for (let j = 0; j < length - i - 1; j++) {
       if (arr[j] > arr[j + 1]) {
         // swap the adjacent elements
         let temp = arr[j];

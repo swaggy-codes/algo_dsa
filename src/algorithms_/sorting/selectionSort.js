@@ -16,10 +16,10 @@ export const selectionSort = (arr, using) => {
       if (arr[j] < arr[min]) {
         min = j;
       }
-      temp = arr[min]; //swapping the elements
-      arr[min] = arr[i];
-      arr[i] = temp;
     }
+    temp = arr[min]; //swapping the elements
+    arr[min] = arr[i];
+    arr[i] = temp;
   }
   return using ? arr : console.log(`The sorted array for the given array (Selection Sort): [${arr}]`);
 };
