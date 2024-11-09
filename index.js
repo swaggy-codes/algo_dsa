@@ -6,9 +6,9 @@ import { binarySearchIterative, binarySearchRecursive } from "./src/algorithms_/
 
 // selectionSort(givenArray, false); //Calling selectionSort
 
-bubbleSort(givenArray, false); //Calling bubbleSort
+// bubbleSort(givenArray, false); //Calling bubbleSort
 
-binarySearchIterative(bubbleSort(givenArray, true), 45); //Calling binarySearchIterative
+// binarySearchIterative(bubbleSort(givenArray, true), 45); //Calling binarySearchIterative
 
 // binarySearchRecursive(bubbleSort(givenArray, true), 0, givenArray.length - 1, 45); //Calling binarySearchRecursive
 

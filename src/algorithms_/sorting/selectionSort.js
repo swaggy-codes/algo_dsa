@@ -1,8 +1,8 @@
 // Complexity -> O(n2)
 // Worst Case Space Complexity -> O(1)
-// This alogorithm is called Selection Sort since  it repeatedly selects the smallest element.
+// This algorithm is called Selection Sort since  it repeatedly selects the smallest element.
 
-// Thought -> This alogorithm basically checks for the smallest element in the array and then swpas it with the current selection.
+// Thought -> This algorithm basically checks for the smallest element in the array and then swpas it with the current selection.
 
 export const selectionSort = (arr, using) => {
   let min = 0,

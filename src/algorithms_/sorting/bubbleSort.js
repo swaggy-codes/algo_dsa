@@ -1,5 +1,5 @@
 // Complexity -> O(n2)
-// This alogorithm is called Bubble Sort or sometimes Sinking Sort.
+// This algorithm is called Bubble Sort or sometimes Sinking Sort.
 // Not Stable
 
 export const bubbleSort = (arr, using) => {
